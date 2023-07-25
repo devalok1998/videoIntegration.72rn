@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "155353920825",
+    "project_id": "point3videocall",
+    "storage_bucket": "point3videocall.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155353920825:android:6ae038eb627bfcb5daa4e8",
+        "android_client_info": {
+          "package_name": "com.videosdkcheck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155353920825-4fd12v5lj39ooogf8okrmugumgsufl7c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHBfDucMHXYOBPqlAGvt1Pn6DepqbFRgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155353920825-4fd12v5lj39ooogf8okrmugumgsufl7c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

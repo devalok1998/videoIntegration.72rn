@@ -1,0 +1,13 @@
+current directory: /Users/alokkumarsinha/Desktop/VieoInteg/VideoSdkCheck/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+/Users/alokkumarsinha/.rbenv/versions/2.7.2/bin/ruby -I /Users/alokkumarsinha/.rbenv/versions/2.7.2/lib/ruby/site_ruby/2.7.0 extconf.rb
+creating Makefile
+
+current directory: /Users/alokkumarsinha/Desktop/VieoInteg/VideoSdkCheck/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20230722-3901-1ra47hm sitelibdir\=./.gem.20230722-3901-1ra47hm clean
+
+current directory: /Users/alokkumarsinha/Desktop/VieoInteg/VideoSdkCheck/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20230722-3901-1ra47hm sitelibdir\=./.gem.20230722-3901-1ra47hm
+make: Nothing to be done for `all'.
+
+current directory: /Users/alokkumarsinha/Desktop/VieoInteg/VideoSdkCheck/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20230722-3901-1ra47hm sitelibdir\=./.gem.20230722-3901-1ra47hm install
