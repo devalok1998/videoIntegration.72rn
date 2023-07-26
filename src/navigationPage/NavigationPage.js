@@ -11,8 +11,8 @@ const Stack = createNativeStackNavigator();
 const NavigationPage = () => {
   return (
     <NavigationContainer>
-        <Stack.Navigator initialRouteName='ZeoClud'>
-          <Stack.Screen name='AgoraUiKitNew' component={AgoraUiKitNew}/>
+        <Stack.Navigator initialRouteName='HomePage'>
+          {/* <Stack.Screen name='AgoraUiKitNew' component={AgoraUiKitNew}/> */}
             <Stack.Screen name="ZeoClud" component={ZeoClud}/>
             <Stack.Screen name="HomePage" component={HomePage}/>
         </Stack.Navigator>

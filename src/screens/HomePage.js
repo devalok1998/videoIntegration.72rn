@@ -1,4 +1,4 @@
-import { StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native'
+import { Alert, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native'
 import React,{useState} from 'react'
 
 const HomePage = ({navigation}) => {
@@ -6,10 +6,11 @@ const HomePage = ({navigation}) => {
   return (
     <View style={{
         flex:1,
-        backgroundColor:"blue",
+        backgroundColor:"skyblue",
     }}>
       <TextInput
-      placeholder='Id'
+      placeholder='Enter Your User Name'
+      placeholderTextColor={"black"}
       value={id}
       onChangeText={newValue=>setId(newValue)}
       style={{
@@ -36,9 +37,14 @@ const HomePage = ({navigation}) => {
         alignItems:'center',
       }}
       onPress={()=>{
-        navigation.navigate("ZeoClud",{
+        if (id === "") {
+          Alert.alert("Please add user name");
+        } else {
+          navigation.navigate("ZeoClud",{
             userName:id
         })
+        }
+       
       }}
       >
         <Text>JOIN BUTTON </Text>

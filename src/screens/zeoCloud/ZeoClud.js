@@ -8,8 +8,8 @@ import {ZegoUIKitPrebuiltCall, ONE_ON_ONE_VIDEO_CALL_CONFIG ,GROUP_VIDEO_CALL_CO
 
 export default function ZeoClud({route}) {
    const navigation = useNavigation();
-    // const {userName} =  route.params;
-    // console.log("userNameuserName==>",userName);
+    const {userName} =  route.params;
+    console.log("userNameuserName==>",userName);
    const randomUserId = String(Math.floor(Math.random()*100000))
     return (
         <View style={{
@@ -19,17 +19,17 @@ export default function ZeoClud({route}) {
                 appID={APP_ID}
                 appSign={APP_SIGN}
                 userID={randomUserId} // userID can be something like a phone number or the user id on your own user system. 
-                userName={`randomUserId${randomUserId}`}
+                userName={`${userName}${randomUserId}`}
                 callID={"zeoCloudOneOnOneVideoCall"} // callID can be any unique string. 
 
                 config={{
                     // You can also use ONE_ON_ONE_VOICE_CALL_CONFIG/GROUP_VIDEO_CALL_CONFIG/GROUP_VOICE_CALL_CONFIG to make more types of calls.
                     ...ONE_ON_ONE_VIDEO_CALL_CONFIG,
                     onOnlySelfInRoom: () => { 
-                        // navigation.navigate('HomePage') 
+                        navigation.navigate('HomePage') 
                     },
                     onHangUp: () => {
-                        //  navigation.navigate('HomePage')
+                         navigation.navigate('HomePage')
                          },
                 }}
             />
